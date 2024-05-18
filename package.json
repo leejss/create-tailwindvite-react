@@ -1,0 +1,27 @@
+{
+  "name": "create-tailwindvite-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-tailwindvite-react": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template",
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "url": "https://github.com/leejss/create-tailwindvite-react"
+  },
+  "author": "leejss",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "unbuild": "^2.0.0"
+  }
+}
