@@ -29,5 +29,8 @@ function main() {
   fs.cpSync(templateDir, projectPath, {
     recursive: true,
   });
+
+  // Print success message
+  console.log(`Project ${projectName} created at ${projectPath}`);
 }
 main();
